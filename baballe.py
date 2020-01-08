@@ -45,7 +45,7 @@ clock = pygame.time.Clock()
 
 #Sound and pictures
 sound = pygame.mixer.Sound("ping.ogg")
-arrowPic = pygame.image.load("arrow2.png")
+arrowPic = pygame.image.load("img/arrow2.png")
 
 class Gravity:
     def __init__(self,a):
