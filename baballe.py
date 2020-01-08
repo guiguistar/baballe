@@ -261,8 +261,8 @@ while not done:
 
     screen.fill(BLACK)
     #pygame.draw.rect(screen, GREEN, [100,100,200,200], 0)
-    #arrows.draw(screen)
-    gravity.draw(screen)
+    arrows.draw(screen)
+    #gravity.draw(screen)
     marbles.draw(screen)
     world.draw(screen)
     gravity.display()
